@@ -1,5 +1,5 @@
-#ifndef _ADDRESS_H
-#define _ADDRESS_H
+#ifndef __ADDRESS_H
+#define __ADDRESS_H
 class Address {
 private:
 	char* street;
@@ -10,4 +10,4 @@ public:
 	void showAddress();
 	void free();
 };
-#endif // _ADDRESS_H
+#endif // __ADDRESS_H
